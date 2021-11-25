@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header1 {
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    text-shadow: beige 12px 12px 12px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: blueviolet 30px 3px;
+    text-transform: uppercase;
+    transform: rotate(30deg);
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition: width 1s;
+}
+
+div:hover {
+    width: 90%;
+    background-color: chartreuse;
+}
+
+.header2 {
+    background-color: rgb(220, 238, 189);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    text-shadow: rgb(20, 71, 71) 15px 15px 15px;
+    border-radius: 50%;
+    text-align-last: center;
+    box-shadow: rgb(71, 9, 9);
+    transform: rotate(30deg);
+}
+
+.data2 {
+    border: grey solid 3px;
+    background-color: lightblue;
+}
